@@ -66,7 +66,9 @@ nav {
 .intro-text h1 {
   font-size: 44px;
   font-weight: 500;
-  color: #3b3b47;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .intro-text p {
@@ -79,7 +81,7 @@ nav {
   padding: 50px 0px 0px 0px;
 }
 
-.cta-seLect {
+.cta-contact {
   border: 2px solid #c36cbb;
   background: transparent;
   color: #c36cbb;
