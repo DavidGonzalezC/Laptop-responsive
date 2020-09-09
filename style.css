@@ -1,31 +1,51 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Kumbh Sans', sans-serif;
+body {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-header{
-    display: flex;
-    width: 90%;
-    margin: auto;
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
 }
 
-.logo-container{
-    background: rgb(12, 214, 120);
-    flex: 1;
-
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
 }
 
-nav{
-    background: rgb(231, 208, 0);
-    flex: 1;
+.logo-container {
+  flex: 1;
 }
 
-.cart{
-    background: rgb(255, 0, 200);
-    flex: 1;
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cart {
+  flex: 1;
 }
